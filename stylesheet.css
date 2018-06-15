@@ -1,0 +1,113 @@
+body
+{
+    background: url("./background.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Cabin', sans-serif;
+}
+
+.title-bar
+{
+    top:0px;
+    left:0px;
+    position: fixed;
+    line-height: 75px;
+    height: 150px;
+    width: 100%;
+    background: rgba(0,0,0,0);
+    color: white;
+    font-size: 26px;   
+    z-index: 0;
+    
+}
+.data-box
+{   
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1000px;
+    transform: translate(-50%, -50%);
+}
+.logo
+{
+    cursor: pointer;
+}
+
+.menu-buttons
+{
+    display: inline;
+    position: absolute;
+    right: 0px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 27px;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.motto
+{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 37px;
+    background: rgb(0,0,0,0.75);
+    transform: translate(-50%,0%);
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.body
+{
+    left:0%;
+    width:100%;
+    position: absolute;
+    top:100%;
+    background: white;
+    color: body;
+    font-size: 23px;
+}
+
+.info
+{
+    position: relative;
+    margin: auto;
+    text-align: center;
+
+    height: 500px;
+}
+.image
+{
+    top: 50px;
+    position: relative;
+    clip-path: circle(75px at center);
+}
+.footer
+{
+    position: relative;
+    width:100%;
+    left:0px;
+    height:100px;
+    background: rgb(220,220,220);
+    bottom: 0%;
+
+    margin: auto;
+    line-height: 75px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.footerlogo
+{
+    position: relative;
+    top:10px;
+
+}
