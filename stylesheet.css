@@ -58,7 +58,7 @@ a
     text-align: center;
     color: white;
     font-size: 37px;
-    background: rgb(0,0,0,0.75);
+    background: rgb(0,0,0,0.4);
     transform: translate(-50%,0%);
     padding: 20px;
     padding-left: 40px;
@@ -82,7 +82,7 @@ a
     margin: auto;
     text-align: center;
 
-    height: 500px;
+    height: 400px;
 }
 .image
 {
@@ -110,4 +110,13 @@ a
     position: relative;
     top:10px;
 
+}
+
+.desc
+{
+    position: relative;
+    top: 40px;
+    padding-left: 30px; 
+    font-size: 33px;
+    text-align: left;
 }
