@@ -4,6 +4,7 @@
         <link href="stylesheet.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <body>
 
@@ -14,6 +15,8 @@
                     <a href="http://github.com/onionsoftware">GITHUB</a>
                     &nbsp;
                     <a href="http://youtube.com/channel/UCSXVAXr3ZkOv1Hv1F2b5V1g">YOUTUBE</a>
+                    &nbsp;
+                    <a href="javascript:void(0)" onclick='$("html, body").animate({scrollTop: $("#discord").offset().top}, 2000);'>DISCORD</a>
                 </div>
             </div> 
         </div> 
@@ -35,7 +38,7 @@
             <br>
 
             <div class="info">
-                <img src="discord.png" width=150 height=150 class=image /><br><br><br><br><br><br>
+                <img src="discord.png" id="discord" width=150 height=150 class=image /><br><br><br><br><br><br>
                 Join our <a href="https://discord.gg/rN9Cg35" style="color:#7289DA">Discord server</a>. 
             </div>
 
